@@ -18,9 +18,9 @@ def code():
 
 
 alive = True
+daysToLive = 50
 
 while alive == True:
-    daysToLive = 5
     if daysToLive > 0:
         answer = input('Is it morning, afternoon or night?')
         if answer == 'morning':
